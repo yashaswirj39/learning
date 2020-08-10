@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.codehaus.plexus:plexus-io:2.4.1">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.plexus/plexus-io/2.4.1/62996b2ef6bba440ca126cd6b59212f97e64c4ca/plexus-io-2.4.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.plexus/plexus-io/2.4.1/f50ea03ed197e2fcc22ad907debbdbc1766ff0d5/plexus-io-2.4.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

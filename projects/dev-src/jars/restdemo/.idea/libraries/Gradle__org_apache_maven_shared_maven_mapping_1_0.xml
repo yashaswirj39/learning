@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.apache.maven.shared:maven-mapping:1.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.maven.shared/maven-mapping/1.0/73181b19212dd4328fb2858cd08f01ee0d485c0e/maven-mapping-1.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.maven.shared/maven-mapping/1.0/77953a492ea88796d4f5344384fdccba501ccd79/maven-mapping-1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

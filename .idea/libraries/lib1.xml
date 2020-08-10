@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="lib1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/apache-tomcat-7.0.75/webapps/eventcreator/WEB-INF/lib/config-1.2.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/apache-tomcat-7.0.75/webapps/eventcreator/WEB-INF/lib/clari5util-3.7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/apache-tomcat-7.0.75/webapps/eventcreator/WEB-INF/lib/json-20170516.jar!/" />
+      <root url="jar://$PROJECT_DIR$/apache-tomcat-7.0.75/webapps/eventcreator/WEB-INF/lib/javax.servlet-api-3.0.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

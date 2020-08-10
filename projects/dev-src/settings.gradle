@@ -1,0 +1,4 @@
+//rootProject.name = 'grad-web'
+
+include 'jars:restdemo'
+include 'wars:restapp'

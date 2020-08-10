@@ -1,0 +1,434 @@
+Mar 18, 2019 4:48:49 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.75
+Mar 18, 2019 4:48:49 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Jan 18 2017 20:54:42 UTC
+Mar 18, 2019 4:48:49 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.75.0
+Mar 18, 2019 4:48:49 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Linux
+Mar 18, 2019 4:48:49 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            4.13.0-36-generic
+Mar 18, 2019 4:48:49 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Mar 18, 2019 4:48:49 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /usr/lib/jvm/java-8-oracle/jre
+Mar 18, 2019 4:48:49 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_181-b13
+Mar 18, 2019 4:48:49 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Mar 18, 2019 4:48:49 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /home/yashaswi/ip/apache-tomcat-7.0.75
+Mar 18, 2019 4:48:49 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /home/yashaswi/ip/apache-tomcat-7.0.75
+Mar 18, 2019 4:48:49 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/home/yashaswi/ip/apache-tomcat-7.0.75/conf/logging.properties
+Mar 18, 2019 4:48:49 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Mar 18, 2019 4:48:49 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Xmx2g
+Mar 18, 2019 4:48:49 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Mar 18, 2019 4:48:49 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.endorsed.dirs=/home/yashaswi/ip/apache-tomcat-7.0.75/endorsed
+Mar 18, 2019 4:48:49 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/home/yashaswi/ip/apache-tomcat-7.0.75
+Mar 18, 2019 4:48:49 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/home/yashaswi/ip/apache-tomcat-7.0.75
+Mar 18, 2019 4:48:49 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/home/yashaswi/ip/apache-tomcat-7.0.75/temp
+Mar 18, 2019 4:48:49 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /home/yashaswi/cxps/dev/Clari5-EFM-4.8-yes-baseline/workspace/bin/oracle:/home/yashaswi/cxps/dev/Clari5-EFM-4.8-yes-baseline/workspace/bin/oracle/lib:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+Mar 18, 2019 4:48:49 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8088"]
+Mar 18, 2019 4:48:49 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Mar 18, 2019 4:48:49 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 809 ms
+Mar 18, 2019 4:48:49 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Mar 18, 2019 4:48:49 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.75
+Mar 18, 2019 4:48:50 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /home/yashaswi/ip/apache-tomcat-7.0.75/webapps/restapp.war
+Mar 18, 2019 4:48:51 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Mar 18, 2019 4:48:51 PM com.sun.jersey.api.core.servlet.WebAppResourceConfig init
+INFO: Scanning for root resource and provider classes in the Web app resource paths:
+  /WEB-INF/lib
+  /WEB-INF/classes
+Mar 18, 2019 4:48:52 PM com.sun.jersey.api.core.ScanningResourceConfig logClasses
+INFO: Root resource classes found:
+  class rest.integration.FirstResource
+Mar 18, 2019 4:48:52 PM com.sun.jersey.api.core.ScanningResourceConfig logClasses
+INFO: Provider classes found:
+  class com.owlike.genson.ext.jaxrs.GensonJsonConverter
+Mar 18, 2019 4:48:52 PM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.19 02/11/2015 03:25 AM'
+Mar 18, 2019 4:48:53 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive /home/yashaswi/ip/apache-tomcat-7.0.75/webapps/restapp.war has finished in 2,999 ms
+Mar 18, 2019 4:48:53 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /home/yashaswi/ip/apache-tomcat-7.0.75/webapps/eventcreator.war
+Mar 18, 2019 4:48:53 PM org.apache.catalina.loader.WebappClassLoaderBase validateJarFile
+INFO: validateJarFile(/home/yashaswi/ip/apache-tomcat-7.0.75/webapps/eventcreator/WEB-INF/lib/javax.servlet-api-3.0.1.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+Mar 18, 2019 4:48:53 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Mar 18, 2019 4:48:53 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive /home/yashaswi/ip/apache-tomcat-7.0.75/webapps/eventcreator.war has finished in 275 ms
+Mar 18, 2019 4:48:53 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/yashaswi/ip/apache-tomcat-7.0.75/webapps/host-manager
+Mar 18, 2019 4:48:53 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/yashaswi/ip/apache-tomcat-7.0.75/webapps/host-manager has finished in 107 ms
+Mar 18, 2019 4:48:53 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/yashaswi/ip/apache-tomcat-7.0.75/webapps/manager
+Mar 18, 2019 4:48:53 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/yashaswi/ip/apache-tomcat-7.0.75/webapps/manager has finished in 97 ms
+Mar 18, 2019 4:48:53 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/yashaswi/ip/apache-tomcat-7.0.75/webapps/ROOT
+Mar 18, 2019 4:48:53 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/yashaswi/ip/apache-tomcat-7.0.75/webapps/ROOT has finished in 78 ms
+Mar 18, 2019 4:48:53 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/yashaswi/ip/apache-tomcat-7.0.75/webapps/examples
+Mar 18, 2019 4:48:54 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/yashaswi/ip/apache-tomcat-7.0.75/webapps/examples has finished in 423 ms
+Mar 18, 2019 4:48:54 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/yashaswi/ip/apache-tomcat-7.0.75/webapps/docs
+Mar 18, 2019 4:48:54 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/yashaswi/ip/apache-tomcat-7.0.75/webapps/docs has finished in 50 ms
+Mar 18, 2019 4:48:54 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8088"]
+Mar 18, 2019 4:48:54 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Mar 18, 2019 4:48:54 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 4315 ms
+Mar 18, 2019 4:50:06 PM com.sun.jersey.server.wadl.generators.AbstractWadlGeneratorGrammarGenerator attachTypes
+INFO: Couldn't find grammar element for class rest.integration.Employee
+Mar 18, 2019 4:50:06 PM com.sun.jersey.server.wadl.generators.AbstractWadlGeneratorGrammarGenerator attachTypes
+INFO: Couldn't find grammar element for class boolean
+Mar 18, 2019 4:50:06 PM com.sun.jersey.server.wadl.generators.AbstractWadlGeneratorGrammarGenerator attachTypes
+INFO: Couldn't find grammar element for class rest.integration.Employee
+Mar 18, 2019 4:50:06 PM com.sun.jersey.server.wadl.generators.AbstractWadlGeneratorGrammarGenerator attachTypes
+INFO: Couldn't find grammar element for class boolean
+Mar 18, 2019 4:50:52 PM com.sun.jersey.server.wadl.generators.AbstractWadlGeneratorGrammarGenerator attachTypes
+INFO: Couldn't find grammar element for class rest.integration.Employee
+Mar 18, 2019 4:50:52 PM com.sun.jersey.server.wadl.generators.AbstractWadlGeneratorGrammarGenerator attachTypes
+INFO: Couldn't find grammar element for class boolean
+Mar 18, 2019 4:50:52 PM com.sun.jersey.server.wadl.generators.AbstractWadlGeneratorGrammarGenerator attachTypes
+INFO: Couldn't find grammar element for class rest.integration.Employee
+Mar 18, 2019 4:50:52 PM com.sun.jersey.server.wadl.generators.AbstractWadlGeneratorGrammarGenerator attachTypes
+INFO: Couldn't find grammar element for class boolean
+Mar 18, 2019 4:50:57 PM com.sun.jersey.server.wadl.generators.AbstractWadlGeneratorGrammarGenerator attachTypes
+INFO: Couldn't find grammar element for class rest.integration.Employee
+Mar 18, 2019 4:50:57 PM com.sun.jersey.server.wadl.generators.AbstractWadlGeneratorGrammarGenerator attachTypes
+INFO: Couldn't find grammar element for class boolean
+Mar 18, 2019 4:50:57 PM com.sun.jersey.server.wadl.generators.AbstractWadlGeneratorGrammarGenerator attachTypes
+INFO: Couldn't find grammar element for class rest.integration.Employee
+Mar 18, 2019 4:50:57 PM com.sun.jersey.server.wadl.generators.AbstractWadlGeneratorGrammarGenerator attachTypes
+INFO: Couldn't find grammar element for class boolean
+Mar 18, 2019 4:55:01 PM com.sun.jersey.server.wadl.generators.AbstractWadlGeneratorGrammarGenerator attachTypes
+INFO: Couldn't find grammar element for class rest.integration.Employee
+Mar 18, 2019 4:55:01 PM com.sun.jersey.server.wadl.generators.AbstractWadlGeneratorGrammarGenerator attachTypes
+INFO: Couldn't find grammar element for class boolean
+Mar 18, 2019 4:55:01 PM com.sun.jersey.server.wadl.generators.AbstractWadlGeneratorGrammarGenerator attachTypes
+INFO: Couldn't find grammar element for class rest.integration.Employee
+Mar 18, 2019 4:55:01 PM com.sun.jersey.server.wadl.generators.AbstractWadlGeneratorGrammarGenerator attachTypes
+INFO: Couldn't find grammar element for class boolean
+Mar 18, 2019 5:17:41 PM com.sun.jersey.server.wadl.generators.AbstractWadlGeneratorGrammarGenerator attachTypes
+INFO: Couldn't find grammar element for class rest.integration.Employee
+Mar 18, 2019 5:17:41 PM com.sun.jersey.server.wadl.generators.AbstractWadlGeneratorGrammarGenerator attachTypes
+INFO: Couldn't find grammar element for class boolean
+Mar 18, 2019 5:17:41 PM com.sun.jersey.server.wadl.generators.AbstractWadlGeneratorGrammarGenerator attachTypes
+INFO: Couldn't find grammar element for class rest.integration.Employee
+Mar 18, 2019 5:17:41 PM com.sun.jersey.server.wadl.generators.AbstractWadlGeneratorGrammarGenerator attachTypes
+INFO: Couldn't find grammar element for class boolean
+Mar 18, 2019 5:29:55 PM com.sun.jersey.server.wadl.generators.AbstractWadlGeneratorGrammarGenerator attachTypes
+INFO: Couldn't find grammar element for class rest.integration.Employee
+Mar 18, 2019 5:29:55 PM com.sun.jersey.server.wadl.generators.AbstractWadlGeneratorGrammarGenerator attachTypes
+INFO: Couldn't find grammar element for class boolean
+Mar 18, 2019 5:29:55 PM com.sun.jersey.server.wadl.generators.AbstractWadlGeneratorGrammarGenerator attachTypes
+INFO: Couldn't find grammar element for class rest.integration.Employee
+Mar 18, 2019 5:29:55 PM com.sun.jersey.server.wadl.generators.AbstractWadlGeneratorGrammarGenerator attachTypes
+INFO: Couldn't find grammar element for class boolean
+Mar 18, 2019 5:30:39 PM com.sun.jersey.server.wadl.generators.AbstractWadlGeneratorGrammarGenerator attachTypes
+INFO: Couldn't find grammar element for class rest.integration.Employee
+Mar 18, 2019 5:30:39 PM com.sun.jersey.server.wadl.generators.AbstractWadlGeneratorGrammarGenerator attachTypes
+INFO: Couldn't find grammar element for class boolean
+Mar 18, 2019 5:30:39 PM com.sun.jersey.server.wadl.generators.AbstractWadlGeneratorGrammarGenerator attachTypes
+INFO: Couldn't find grammar element for class rest.integration.Employee
+Mar 18, 2019 5:30:39 PM com.sun.jersey.server.wadl.generators.AbstractWadlGeneratorGrammarGenerator attachTypes
+INFO: Couldn't find grammar element for class boolean
+Mar 18, 2019 5:36:28 PM com.sun.jersey.server.wadl.generators.AbstractWadlGeneratorGrammarGenerator attachTypes
+INFO: Couldn't find grammar element for class rest.integration.Employee
+Mar 18, 2019 5:36:28 PM com.sun.jersey.server.wadl.generators.AbstractWadlGeneratorGrammarGenerator attachTypes
+INFO: Couldn't find grammar element for class boolean
+Mar 18, 2019 5:36:28 PM com.sun.jersey.server.wadl.generators.AbstractWadlGeneratorGrammarGenerator attachTypes
+INFO: Couldn't find grammar element for class rest.integration.Employee
+Mar 18, 2019 5:36:28 PM com.sun.jersey.server.wadl.generators.AbstractWadlGeneratorGrammarGenerator attachTypes
+INFO: Couldn't find grammar element for class boolean
+Mar 18, 2019 5:38:03 PM com.sun.jersey.server.wadl.generators.AbstractWadlGeneratorGrammarGenerator attachTypes
+INFO: Couldn't find grammar element for class rest.integration.Employee
+Mar 18, 2019 5:38:03 PM com.sun.jersey.server.wadl.generators.AbstractWadlGeneratorGrammarGenerator attachTypes
+INFO: Couldn't find grammar element for class boolean
+Mar 18, 2019 5:38:03 PM com.sun.jersey.server.wadl.generators.AbstractWadlGeneratorGrammarGenerator attachTypes
+INFO: Couldn't find grammar element for class rest.integration.Employee
+Mar 18, 2019 5:38:03 PM com.sun.jersey.server.wadl.generators.AbstractWadlGeneratorGrammarGenerator attachTypes
+INFO: Couldn't find grammar element for class boolean
+Mar 18, 2019 5:38:41 PM com.sun.jersey.server.wadl.generators.AbstractWadlGeneratorGrammarGenerator attachTypes
+INFO: Couldn't find grammar element for class rest.integration.Employee
+Mar 18, 2019 5:38:41 PM com.sun.jersey.server.wadl.generators.AbstractWadlGeneratorGrammarGenerator attachTypes
+INFO: Couldn't find grammar element for class boolean
+Mar 18, 2019 5:38:41 PM com.sun.jersey.server.wadl.generators.AbstractWadlGeneratorGrammarGenerator attachTypes
+INFO: Couldn't find grammar element for class rest.integration.Employee
+Mar 18, 2019 5:38:41 PM com.sun.jersey.server.wadl.generators.AbstractWadlGeneratorGrammarGenerator attachTypes
+INFO: Couldn't find grammar element for class boolean
+Mar 18, 2019 5:39:23 PM com.sun.jersey.server.wadl.generators.AbstractWadlGeneratorGrammarGenerator attachTypes
+INFO: Couldn't find grammar element for class rest.integration.Employee
+Mar 18, 2019 5:39:23 PM com.sun.jersey.server.wadl.generators.AbstractWadlGeneratorGrammarGenerator attachTypes
+INFO: Couldn't find grammar element for class boolean
+Mar 18, 2019 5:39:23 PM com.sun.jersey.server.wadl.generators.AbstractWadlGeneratorGrammarGenerator attachTypes
+INFO: Couldn't find grammar element for class rest.integration.Employee
+Mar 18, 2019 5:39:23 PM com.sun.jersey.server.wadl.generators.AbstractWadlGeneratorGrammarGenerator attachTypes
+INFO: Couldn't find grammar element for class boolean
+Mar 18, 2019 5:40:08 PM com.sun.jersey.server.wadl.generators.AbstractWadlGeneratorGrammarGenerator attachTypes
+INFO: Couldn't find grammar element for class rest.integration.Employee
+Mar 18, 2019 5:40:08 PM com.sun.jersey.server.wadl.generators.AbstractWadlGeneratorGrammarGenerator attachTypes
+INFO: Couldn't find grammar element for class boolean
+Mar 18, 2019 5:40:08 PM com.sun.jersey.server.wadl.generators.AbstractWadlGeneratorGrammarGenerator attachTypes
+INFO: Couldn't find grammar element for class rest.integration.Employee
+Mar 18, 2019 5:40:08 PM com.sun.jersey.server.wadl.generators.AbstractWadlGeneratorGrammarGenerator attachTypes
+INFO: Couldn't find grammar element for class boolean
+Mar 18, 2019 5:40:37 PM com.sun.jersey.server.wadl.generators.AbstractWadlGeneratorGrammarGenerator attachTypes
+INFO: Couldn't find grammar element for class rest.integration.Employee
+Mar 18, 2019 5:40:37 PM com.sun.jersey.server.wadl.generators.AbstractWadlGeneratorGrammarGenerator attachTypes
+INFO: Couldn't find grammar element for class boolean
+Mar 18, 2019 5:40:37 PM com.sun.jersey.server.wadl.generators.AbstractWadlGeneratorGrammarGenerator attachTypes
+INFO: Couldn't find grammar element for class rest.integration.Employee
+Mar 18, 2019 5:40:37 PM com.sun.jersey.server.wadl.generators.AbstractWadlGeneratorGrammarGenerator attachTypes
+INFO: Couldn't find grammar element for class boolean
+Mar 18, 2019 5:41:05 PM com.sun.jersey.server.wadl.generators.AbstractWadlGeneratorGrammarGenerator attachTypes
+INFO: Couldn't find grammar element for class rest.integration.Employee
+Mar 18, 2019 5:41:05 PM com.sun.jersey.server.wadl.generators.AbstractWadlGeneratorGrammarGenerator attachTypes
+INFO: Couldn't find grammar element for class boolean
+Mar 18, 2019 5:41:05 PM com.sun.jersey.server.wadl.generators.AbstractWadlGeneratorGrammarGenerator attachTypes
+INFO: Couldn't find grammar element for class rest.integration.Employee
+Mar 18, 2019 5:41:05 PM com.sun.jersey.server.wadl.generators.AbstractWadlGeneratorGrammarGenerator attachTypes
+INFO: Couldn't find grammar element for class boolean
+Mar 18, 2019 5:41:05 PM com.sun.jersey.server.wadl.generators.AbstractWadlGeneratorGrammarGenerator attachTypes
+INFO: Couldn't find grammar element for class rest.integration.Employee
+Mar 18, 2019 5:41:05 PM com.sun.jersey.server.wadl.generators.AbstractWadlGeneratorGrammarGenerator attachTypes
+INFO: Couldn't find grammar element for class boolean
+Mar 18, 2019 5:41:05 PM com.sun.jersey.server.wadl.generators.AbstractWadlGeneratorGrammarGenerator attachTypes
+INFO: Couldn't find grammar element for class rest.integration.Employee
+Mar 18, 2019 5:41:05 PM com.sun.jersey.server.wadl.generators.AbstractWadlGeneratorGrammarGenerator attachTypes
+INFO: Couldn't find grammar element for class boolean
+Mar 18, 2019 5:46:34 PM com.sun.jersey.server.wadl.generators.AbstractWadlGeneratorGrammarGenerator attachTypes
+INFO: Couldn't find grammar element for class rest.integration.Employee
+Mar 18, 2019 5:46:34 PM com.sun.jersey.server.wadl.generators.AbstractWadlGeneratorGrammarGenerator attachTypes
+INFO: Couldn't find grammar element for class boolean
+Mar 18, 2019 5:46:34 PM com.sun.jersey.server.wadl.generators.AbstractWadlGeneratorGrammarGenerator attachTypes
+INFO: Couldn't find grammar element for class rest.integration.Employee
+Mar 18, 2019 5:46:34 PM com.sun.jersey.server.wadl.generators.AbstractWadlGeneratorGrammarGenerator attachTypes
+INFO: Couldn't find grammar element for class boolean
+Mar 18, 2019 5:46:34 PM com.sun.jersey.server.wadl.generators.AbstractWadlGeneratorGrammarGenerator attachTypes
+INFO: Couldn't find grammar element for class rest.integration.Employee
+Mar 18, 2019 5:46:34 PM com.sun.jersey.server.wadl.generators.AbstractWadlGeneratorGrammarGenerator attachTypes
+INFO: Couldn't find grammar element for class boolean
+Mar 18, 2019 5:46:34 PM com.sun.jersey.server.wadl.generators.AbstractWadlGeneratorGrammarGenerator attachTypes
+INFO: Couldn't find grammar element for class rest.integration.Employee
+Mar 18, 2019 5:46:34 PM com.sun.jersey.server.wadl.generators.AbstractWadlGeneratorGrammarGenerator attachTypes
+INFO: Couldn't find grammar element for class boolean
+Mar 18, 2019 5:46:45 PM com.sun.jersey.server.wadl.generators.AbstractWadlGeneratorGrammarGenerator attachTypes
+INFO: Couldn't find grammar element for class rest.integration.Employee
+Mar 18, 2019 5:46:45 PM com.sun.jersey.server.wadl.generators.AbstractWadlGeneratorGrammarGenerator attachTypes
+INFO: Couldn't find grammar element for class boolean
+Mar 18, 2019 5:46:45 PM com.sun.jersey.server.wadl.generators.AbstractWadlGeneratorGrammarGenerator attachTypes
+INFO: Couldn't find grammar element for class rest.integration.Employee
+Mar 18, 2019 5:46:45 PM com.sun.jersey.server.wadl.generators.AbstractWadlGeneratorGrammarGenerator attachTypes
+INFO: Couldn't find grammar element for class boolean
+Mar 18, 2019 5:46:45 PM com.sun.jersey.server.wadl.generators.AbstractWadlGeneratorGrammarGenerator attachTypes
+INFO: Couldn't find grammar element for class rest.integration.Employee
+Mar 18, 2019 5:46:45 PM com.sun.jersey.server.wadl.generators.AbstractWadlGeneratorGrammarGenerator attachTypes
+INFO: Couldn't find grammar element for class boolean
+Mar 18, 2019 5:46:45 PM com.sun.jersey.server.wadl.generators.AbstractWadlGeneratorGrammarGenerator attachTypes
+INFO: Couldn't find grammar element for class rest.integration.Employee
+Mar 18, 2019 5:46:45 PM com.sun.jersey.server.wadl.generators.AbstractWadlGeneratorGrammarGenerator attachTypes
+INFO: Couldn't find grammar element for class boolean
+Mar 18, 2019 5:48:17 PM com.sun.jersey.server.wadl.generators.AbstractWadlGeneratorGrammarGenerator attachTypes
+INFO: Couldn't find grammar element for class rest.integration.Employee
+Mar 18, 2019 5:48:17 PM com.sun.jersey.server.wadl.generators.AbstractWadlGeneratorGrammarGenerator attachTypes
+INFO: Couldn't find grammar element for class boolean
+Mar 18, 2019 5:48:17 PM com.sun.jersey.server.wadl.generators.AbstractWadlGeneratorGrammarGenerator attachTypes
+INFO: Couldn't find grammar element for class rest.integration.Employee
+Mar 18, 2019 5:48:17 PM com.sun.jersey.server.wadl.generators.AbstractWadlGeneratorGrammarGenerator attachTypes
+INFO: Couldn't find grammar element for class boolean
+Mar 18, 2019 5:48:45 PM com.sun.jersey.server.wadl.generators.AbstractWadlGeneratorGrammarGenerator attachTypes
+INFO: Couldn't find grammar element for class rest.integration.Employee
+Mar 18, 2019 5:48:45 PM com.sun.jersey.server.wadl.generators.AbstractWadlGeneratorGrammarGenerator attachTypes
+INFO: Couldn't find grammar element for class boolean
+Mar 18, 2019 5:48:45 PM com.sun.jersey.server.wadl.generators.AbstractWadlGeneratorGrammarGenerator attachTypes
+INFO: Couldn't find grammar element for class rest.integration.Employee
+Mar 18, 2019 5:48:45 PM com.sun.jersey.server.wadl.generators.AbstractWadlGeneratorGrammarGenerator attachTypes
+INFO: Couldn't find grammar element for class boolean
+Mar 18, 2019 5:50:42 PM com.sun.jersey.server.wadl.generators.AbstractWadlGeneratorGrammarGenerator attachTypes
+INFO: Couldn't find grammar element for class rest.integration.Employee
+Mar 18, 2019 5:50:42 PM com.sun.jersey.server.wadl.generators.AbstractWadlGeneratorGrammarGenerator attachTypes
+INFO: Couldn't find grammar element for class boolean
+Mar 18, 2019 5:50:42 PM com.sun.jersey.server.wadl.generators.AbstractWadlGeneratorGrammarGenerator attachTypes
+INFO: Couldn't find grammar element for class rest.integration.Employee
+Mar 18, 2019 5:50:42 PM com.sun.jersey.server.wadl.generators.AbstractWadlGeneratorGrammarGenerator attachTypes
+INFO: Couldn't find grammar element for class rest.integration.Employee
+Mar 18, 2019 5:50:42 PM com.sun.jersey.server.wadl.generators.AbstractWadlGeneratorGrammarGenerator attachTypes
+INFO: Couldn't find grammar element for class boolean
+Mar 18, 2019 5:50:42 PM com.sun.jersey.server.wadl.generators.AbstractWadlGeneratorGrammarGenerator attachTypes
+INFO: Couldn't find grammar element for class boolean
+Mar 18, 2019 5:50:42 PM com.sun.jersey.server.wadl.generators.AbstractWadlGeneratorGrammarGenerator attachTypes
+INFO: Couldn't find grammar element for class rest.integration.Employee
+Mar 18, 2019 5:50:42 PM com.sun.jersey.server.wadl.generators.AbstractWadlGeneratorGrammarGenerator attachTypes
+INFO: Couldn't find grammar element for class boolean
+Mar 18, 2019 5:52:54 PM com.sun.jersey.server.wadl.generators.AbstractWadlGeneratorGrammarGenerator attachTypes
+INFO: Couldn't find grammar element for class rest.integration.Employee
+Mar 18, 2019 5:52:54 PM com.sun.jersey.server.wadl.generators.AbstractWadlGeneratorGrammarGenerator attachTypes
+INFO: Couldn't find grammar element for class boolean
+Mar 18, 2019 5:52:54 PM com.sun.jersey.server.wadl.generators.AbstractWadlGeneratorGrammarGenerator attachTypes
+INFO: Couldn't find grammar element for class rest.integration.Employee
+Mar 18, 2019 5:52:54 PM com.sun.jersey.server.wadl.generators.AbstractWadlGeneratorGrammarGenerator attachTypes
+INFO: Couldn't find grammar element for class boolean
+Mar 18, 2019 5:52:54 PM com.sun.jersey.server.wadl.generators.AbstractWadlGeneratorGrammarGenerator attachTypes
+INFO: Couldn't find grammar element for class rest.integration.Employee
+Mar 18, 2019 5:52:54 PM com.sun.jersey.server.wadl.generators.AbstractWadlGeneratorGrammarGenerator attachTypes
+INFO: Couldn't find grammar element for class boolean
+Mar 18, 2019 5:52:54 PM com.sun.jersey.server.wadl.generators.AbstractWadlGeneratorGrammarGenerator attachTypes
+INFO: Couldn't find grammar element for class rest.integration.Employee
+Mar 18, 2019 5:52:54 PM com.sun.jersey.server.wadl.generators.AbstractWadlGeneratorGrammarGenerator attachTypes
+INFO: Couldn't find grammar element for class boolean
+Mar 18, 2019 5:53:51 PM com.sun.jersey.server.wadl.generators.AbstractWadlGeneratorGrammarGenerator attachTypes
+INFO: Couldn't find grammar element for class rest.integration.Employee
+Mar 18, 2019 5:53:51 PM com.sun.jersey.server.wadl.generators.AbstractWadlGeneratorGrammarGenerator attachTypes
+INFO: Couldn't find grammar element for class boolean
+Mar 18, 2019 5:53:51 PM com.sun.jersey.server.wadl.generators.AbstractWadlGeneratorGrammarGenerator attachTypes
+INFO: Couldn't find grammar element for class rest.integration.Employee
+Mar 18, 2019 5:53:51 PM com.sun.jersey.server.wadl.generators.AbstractWadlGeneratorGrammarGenerator attachTypes
+INFO: Couldn't find grammar element for class boolean
+Mar 18, 2019 5:53:51 PM com.sun.jersey.server.wadl.generators.AbstractWadlGeneratorGrammarGenerator attachTypes
+INFO: Couldn't find grammar element for class rest.integration.Employee
+Mar 18, 2019 5:53:51 PM com.sun.jersey.server.wadl.generators.AbstractWadlGeneratorGrammarGenerator attachTypes
+INFO: Couldn't find grammar element for class boolean
+Mar 18, 2019 5:53:51 PM com.sun.jersey.server.wadl.generators.AbstractWadlGeneratorGrammarGenerator attachTypes
+INFO: Couldn't find grammar element for class rest.integration.Employee
+Mar 18, 2019 5:53:51 PM com.sun.jersey.server.wadl.generators.AbstractWadlGeneratorGrammarGenerator attachTypes
+INFO: Couldn't find grammar element for class boolean
+Mar 18, 2019 5:54:25 PM com.sun.jersey.server.wadl.generators.AbstractWadlGeneratorGrammarGenerator attachTypes
+INFO: Couldn't find grammar element for class rest.integration.Employee
+Mar 18, 2019 5:54:25 PM com.sun.jersey.server.wadl.generators.AbstractWadlGeneratorGrammarGenerator attachTypes
+INFO: Couldn't find grammar element for class boolean
+Mar 18, 2019 5:54:25 PM com.sun.jersey.server.wadl.generators.AbstractWadlGeneratorGrammarGenerator attachTypes
+INFO: Couldn't find grammar element for class rest.integration.Employee
+Mar 18, 2019 5:54:25 PM com.sun.jersey.server.wadl.generators.AbstractWadlGeneratorGrammarGenerator attachTypes
+INFO: Couldn't find grammar element for class rest.integration.Employee
+Mar 18, 2019 5:54:25 PM com.sun.jersey.server.wadl.generators.AbstractWadlGeneratorGrammarGenerator attachTypes
+INFO: Couldn't find grammar element for class boolean
+Mar 18, 2019 5:54:25 PM com.sun.jersey.server.wadl.generators.AbstractWadlGeneratorGrammarGenerator attachTypes
+INFO: Couldn't find grammar element for class boolean
+Mar 18, 2019 5:54:25 PM com.sun.jersey.server.wadl.generators.AbstractWadlGeneratorGrammarGenerator attachTypes
+INFO: Couldn't find grammar element for class rest.integration.Employee
+Mar 18, 2019 5:54:25 PM com.sun.jersey.server.wadl.generators.AbstractWadlGeneratorGrammarGenerator attachTypes
+INFO: Couldn't find grammar element for class boolean
+Mar 18, 2019 5:54:52 PM com.sun.jersey.server.wadl.generators.AbstractWadlGeneratorGrammarGenerator attachTypes
+INFO: Couldn't find grammar element for class rest.integration.Employee
+Mar 18, 2019 5:54:52 PM com.sun.jersey.server.wadl.generators.AbstractWadlGeneratorGrammarGenerator attachTypes
+INFO: Couldn't find grammar element for class boolean
+Mar 18, 2019 5:54:52 PM com.sun.jersey.server.wadl.generators.AbstractWadlGeneratorGrammarGenerator attachTypes
+INFO: Couldn't find grammar element for class rest.integration.Employee
+Mar 18, 2019 5:54:52 PM com.sun.jersey.server.wadl.generators.AbstractWadlGeneratorGrammarGenerator attachTypes
+INFO: Couldn't find grammar element for class boolean
+Mar 18, 2019 5:54:52 PM com.sun.jersey.server.wadl.generators.AbstractWadlGeneratorGrammarGenerator attachTypes
+INFO: Couldn't find grammar element for class rest.integration.Employee
+Mar 18, 2019 5:54:52 PM com.sun.jersey.server.wadl.generators.AbstractWadlGeneratorGrammarGenerator attachTypes
+INFO: Couldn't find grammar element for class boolean
+Mar 18, 2019 5:54:52 PM com.sun.jersey.server.wadl.generators.AbstractWadlGeneratorGrammarGenerator attachTypes
+INFO: Couldn't find grammar element for class rest.integration.Employee
+Mar 18, 2019 5:54:52 PM com.sun.jersey.server.wadl.generators.AbstractWadlGeneratorGrammarGenerator attachTypes
+INFO: Couldn't find grammar element for class boolean
+Mar 18, 2019 5:55:11 PM com.sun.jersey.server.wadl.generators.AbstractWadlGeneratorGrammarGenerator attachTypes
+INFO: Couldn't find grammar element for class rest.integration.Employee
+Mar 18, 2019 5:55:11 PM com.sun.jersey.server.wadl.generators.AbstractWadlGeneratorGrammarGenerator attachTypes
+INFO: Couldn't find grammar element for class boolean
+Mar 18, 2019 5:55:11 PM com.sun.jersey.server.wadl.generators.AbstractWadlGeneratorGrammarGenerator attachTypes
+INFO: Couldn't find grammar element for class rest.integration.Employee
+Mar 18, 2019 5:55:11 PM com.sun.jersey.server.wadl.generators.AbstractWadlGeneratorGrammarGenerator attachTypes
+INFO: Couldn't find grammar element for class boolean
+Mar 18, 2019 5:55:11 PM com.sun.jersey.server.wadl.generators.AbstractWadlGeneratorGrammarGenerator attachTypes
+INFO: Couldn't find grammar element for class rest.integration.Employee
+Mar 18, 2019 5:55:11 PM com.sun.jersey.server.wadl.generators.AbstractWadlGeneratorGrammarGenerator attachTypes
+INFO: Couldn't find grammar element for class boolean
+Mar 18, 2019 5:55:11 PM com.sun.jersey.server.wadl.generators.AbstractWadlGeneratorGrammarGenerator attachTypes
+INFO: Couldn't find grammar element for class rest.integration.Employee
+Mar 18, 2019 5:55:11 PM com.sun.jersey.server.wadl.generators.AbstractWadlGeneratorGrammarGenerator attachTypes
+INFO: Couldn't find grammar element for class boolean
+Mar 18, 2019 5:58:30 PM com.sun.jersey.server.wadl.generators.AbstractWadlGeneratorGrammarGenerator attachTypes
+INFO: Couldn't find grammar element for class rest.integration.Employee
+Mar 18, 2019 5:58:30 PM com.sun.jersey.server.wadl.generators.AbstractWadlGeneratorGrammarGenerator attachTypes
+INFO: Couldn't find grammar element for class boolean
+Mar 18, 2019 5:58:30 PM com.sun.jersey.server.wadl.generators.AbstractWadlGeneratorGrammarGenerator attachTypes
+INFO: Couldn't find grammar element for class rest.integration.Employee
+Mar 18, 2019 5:58:30 PM com.sun.jersey.server.wadl.generators.AbstractWadlGeneratorGrammarGenerator attachTypes
+INFO: Couldn't find grammar element for class boolean
+Mar 18, 2019 5:58:36 PM com.sun.jersey.server.wadl.generators.AbstractWadlGeneratorGrammarGenerator attachTypes
+INFO: Couldn't find grammar element for class rest.integration.Employee
+Mar 18, 2019 5:58:36 PM com.sun.jersey.server.wadl.generators.AbstractWadlGeneratorGrammarGenerator attachTypes
+INFO: Couldn't find grammar element for class boolean
+Mar 18, 2019 5:58:36 PM com.sun.jersey.server.wadl.generators.AbstractWadlGeneratorGrammarGenerator attachTypes
+INFO: Couldn't find grammar element for class rest.integration.Employee
+Mar 18, 2019 5:58:36 PM com.sun.jersey.server.wadl.generators.AbstractWadlGeneratorGrammarGenerator attachTypes
+INFO: Couldn't find grammar element for class boolean
+Mar 18, 2019 6:02:08 PM com.sun.jersey.server.wadl.generators.AbstractWadlGeneratorGrammarGenerator attachTypes
+INFO: Couldn't find grammar element for class rest.integration.Employee
+Mar 18, 2019 6:02:08 PM com.sun.jersey.server.wadl.generators.AbstractWadlGeneratorGrammarGenerator attachTypes
+INFO: Couldn't find grammar element for class rest.integration.Employee
+Mar 18, 2019 6:02:08 PM com.sun.jersey.server.wadl.generators.AbstractWadlGeneratorGrammarGenerator attachTypes
+INFO: Couldn't find grammar element for class boolean
+Mar 18, 2019 6:02:08 PM com.sun.jersey.server.wadl.generators.AbstractWadlGeneratorGrammarGenerator attachTypes
+INFO: Couldn't find grammar element for class boolean
+Mar 18, 2019 6:02:08 PM com.sun.jersey.server.wadl.generators.AbstractWadlGeneratorGrammarGenerator attachTypes
+INFO: Couldn't find grammar element for class rest.integration.Employee
+Mar 18, 2019 6:02:08 PM com.sun.jersey.server.wadl.generators.AbstractWadlGeneratorGrammarGenerator attachTypes
+INFO: Couldn't find grammar element for class rest.integration.Employee
+Mar 18, 2019 6:02:08 PM com.sun.jersey.server.wadl.generators.AbstractWadlGeneratorGrammarGenerator attachTypes
+INFO: Couldn't find grammar element for class boolean
+Mar 18, 2019 6:02:08 PM com.sun.jersey.server.wadl.generators.AbstractWadlGeneratorGrammarGenerator attachTypes
+INFO: Couldn't find grammar element for class boolean
+Mar 18, 2019 6:03:43 PM com.sun.jersey.server.wadl.generators.AbstractWadlGeneratorGrammarGenerator attachTypes
+INFO: Couldn't find grammar element for class rest.integration.Employee
+Mar 18, 2019 6:03:43 PM com.sun.jersey.server.wadl.generators.AbstractWadlGeneratorGrammarGenerator attachTypes
+INFO: Couldn't find grammar element for class boolean
+Mar 18, 2019 6:03:43 PM com.sun.jersey.server.wadl.generators.AbstractWadlGeneratorGrammarGenerator attachTypes
+INFO: Couldn't find grammar element for class rest.integration.Employee
+Mar 18, 2019 6:03:43 PM com.sun.jersey.server.wadl.generators.AbstractWadlGeneratorGrammarGenerator attachTypes
+INFO: Couldn't find grammar element for class boolean
+Mar 18, 2019 6:03:43 PM com.sun.jersey.server.wadl.generators.AbstractWadlGeneratorGrammarGenerator attachTypes
+INFO: Couldn't find grammar element for class rest.integration.Employee
+Mar 18, 2019 6:03:43 PM com.sun.jersey.server.wadl.generators.AbstractWadlGeneratorGrammarGenerator attachTypes
+INFO: Couldn't find grammar element for class boolean
+Mar 18, 2019 6:03:43 PM com.sun.jersey.server.wadl.generators.AbstractWadlGeneratorGrammarGenerator attachTypes
+INFO: Couldn't find grammar element for class rest.integration.Employee
+Mar 18, 2019 6:03:43 PM com.sun.jersey.server.wadl.generators.AbstractWadlGeneratorGrammarGenerator attachTypes
+INFO: Couldn't find grammar element for class boolean
+Mar 18, 2019 6:51:06 PM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+Mar 18, 2019 6:51:06 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8088"]
+Mar 18, 2019 6:51:06 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+Mar 18, 2019 6:51:07 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Mar 18, 2019 6:51:07 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesJdbc
+SEVERE: The web application [/restapp] registered the JDBC driver [oracle.jdbc.OracleDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+Mar 18, 2019 6:51:07 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+SEVERE: The web application [/restapp] appears to have started a thread named [Timer-0] but has failed to stop it. This is very likely to create a memory leak.
+Mar 18, 2019 6:51:07 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8088"]
+Mar 18, 2019 6:51:07 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+Mar 18, 2019 6:51:07 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8088"]
+Mar 18, 2019 6:51:07 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]

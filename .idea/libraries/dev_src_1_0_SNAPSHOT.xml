@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="dev-src-1.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/projects/dev-src/build/libs/dev-src-1.0-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

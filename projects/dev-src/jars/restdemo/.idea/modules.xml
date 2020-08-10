@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/268691268/dev-src.iml" filepath="$PROJECT_DIR$/.idea/modules/268691268/dev-src.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/539360675/jars.iml" filepath="$PROJECT_DIR$/.idea/modules/539360675/jars.iml" group="jars" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-332207308/restapp.iml" filepath="$PROJECT_DIR$/.idea/modules/-332207308/restapp.iml" group="wars/restapp" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-332207308/restapp_main.iml" filepath="$PROJECT_DIR$/.idea/modules/-332207308/restapp_main.iml" group="wars/restapp" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-332207308/restapp_test.iml" filepath="$PROJECT_DIR$/.idea/modules/-332207308/restapp_test.iml" group="wars/restapp" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/restdemo.iml" filepath="$PROJECT_DIR$/.idea/modules/restdemo.iml" group="jars/restdemo" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/restdemo_main.iml" filepath="$PROJECT_DIR$/.idea/modules/restdemo_main.iml" group="jars/restdemo" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/restdemo_test.iml" filepath="$PROJECT_DIR$/.idea/modules/restdemo_test.iml" group="jars/restdemo" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/539747958/wars.iml" filepath="$PROJECT_DIR$/.idea/modules/539747958/wars.iml" group="wars" />
+    </modules>
+  </component>
+</project>
